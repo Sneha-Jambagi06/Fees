@@ -2,7 +2,6 @@ import sys
 if len(sys.argv)==4:
     tuition_fees=float(sys.argv[1])
     paid_amount=float(sys.argv[2])
-    balance=float(sys.argv[3])
 else:
     tuition_fees=2000.0
     paid_amount=2000.0
