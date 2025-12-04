@@ -1,5 +1,5 @@
 import sys
-if len(sys.argv)==3:
+if len(sys.argv)==4:
     tuition_fees=float(sys.argv[1])
     paid_amount=float(sys.argv[2])
     balance=float(sys.argv[3])
@@ -10,5 +10,4 @@ else:
 total=balance+paid_amount
 print("Tuition_Fees:",tuition_fees)
 print("Paid_amount:",paid_amount)
-print("Balance:",balance)
 print("Total_fees:",total)
